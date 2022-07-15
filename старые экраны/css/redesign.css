@@ -65,3 +65,35 @@ b {
 .mt4 {
 	margin-top: 4px
 }
+
+.new-search {
+	display: inline-flex;
+	align-items: center;
+	border: 1px solid #E2E8F0;
+	border-radius: 24px;
+	padding: 9px 16px;
+	background: #F8FAFC;
+	color: #94A3B8;
+}
+
+.new-search-icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	order: 1;
+}
+
+.new-search-field {
+	width: 317px;
+	height: 36px;
+	border: 0;
+	background: #F8FAFC;
+}
+
+.new-search-field:focus {
+	outline: none;
+}
+
+.search-field:focus + .search-icon {
+
+}
